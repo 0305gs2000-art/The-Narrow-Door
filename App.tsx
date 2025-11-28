@@ -106,6 +106,7 @@ const App: React.FC = () => {
             <div className="w-12 h-px bg-gold-500/30 mx-auto mb-6" />
 
             <div className="text-slate-300 font-light text-lg italic leading-relaxed">
+              <p className="mb-2">A quiet, honest, and personal guide for anyone who feels God calling them back.</p>
               <p className="mb-2">This short book is not theology.</p>
               <p className="mb-2">It is not self-help.</p>
               <p className="mb-2">It is not a lecture.</p>

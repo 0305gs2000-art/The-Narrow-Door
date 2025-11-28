@@ -120,7 +120,7 @@ const App: React.FC = () => {
         {/* --- CTA BUTTON --- */}
         <section className="w-full flex justify-center mb-24 animate-fade-in opacity-0" style={{ animationDelay: '1.4s' }}>
           <a 
-            href="#INSERT_PRODUCT_LINK_HERE" 
+            href="https://pay.hotmart.com/E103167454N" 
             className="group relative px-10 py-5 bg-gradient-to-r from-gold-400 to-gold-300 rounded-sm shadow-[0_0_25px_rgba(212,196,168,0.15)] hover:shadow-[0_0_40px_rgba(212,196,168,0.3)] transition-all duration-500 transform hover:-translate-y-0.5"
           >
             <span className="relative z-10 font-serif text-lg font-semibold text-navy-950 tracking-wide">

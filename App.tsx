@@ -106,12 +106,11 @@ const App: React.FC = () => {
             <div className="w-12 h-px bg-gold-500/30 mx-auto mb-6" />
 
             <div className="text-slate-300 font-light text-lg italic leading-relaxed">
-              <p className="mb-2">It is not long.</p>
-              <p className="mb-2">It is not complicated.</p>
-              <p className="mb-2">It is not dramatic.</p>
+              <p className="mb-2">This short book is not theology.</p>
+              <p className="mb-2">It is not self-help.</p>
+              <p className="mb-2">It is not a lecture.</p>
               <p className="text-white/90">
-                It is simply the story of how a heart returns to the light —
-                and how you can do the same.
+                It is a simple journey — one that begins where all real transformation begins: inside the heart.
               </p>
             </div>
           </div>

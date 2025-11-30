@@ -34,22 +34,22 @@ const App: React.FC = () => {
               </div>
 
               <h2 className="font-serif text-2xl text-gold-200 mb-8 tracking-wide">
-                Today’s Prayer: Family Protection
+                Today’s Prayer: A DECEMBER OF HARVEST
               </h2>
 
               <div className="space-y-4 text-base md:text-lg leading-relaxed text-slate-200 font-light">
                 <p>Heavenly Father,</p>
-                <p>I lift this person into Your light today.</p>
-                <p>Place Your hand over their home,</p>
-                <p>their family,</p>
-                <p>and every path they walk.</p>
-                <p>Let no darkness stand near them.</p>
-                <p>Fill their nights with peace,</p>
-                <p>their days with favor,</p>
-                <p>and their steps with wisdom.</p>
-                <p>Cover the people they love.</p>
-                <p>Strengthen the walls of their home.</p>
-                <p>And let Your presence remain with them.</p>
+                <p>I stand at the open door of a new month.</p>
+                <p>I declare that December will be a season,</p>
+                <p>of overflow and divine favor.</p>
+                <p>Open the windows of heaven over me.</p>
+                <p>Let there be no lack at my table.</p>
+                <p>Where there was struggle, let there be ease.</p>
+                <p>Where there was emptiness, let there be harvest.</p>
+                <p>Illuminate my path with wisdom,</p>
+                <p>to steward the blessings You are sending.</p>
+                <p>I step into this month ready to receive.</p>
+                <p>My heart is open and my spirit is ready.</p>
                 <p className="pt-4 font-medium text-gold-300">Amen.</p>
               </div>
             </div>

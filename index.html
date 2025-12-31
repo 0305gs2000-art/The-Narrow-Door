@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🙏🏻</text></svg>">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Narrow Door</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🙏🏻</text></svg>">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Configuration -->
     <script>
       tailwind.config = {
         theme: {
@@ -44,26 +55,169 @@
         }
       }
     </script>
+    
     <style>
-      /* Smooth scrolling */
       html {
         scroll-behavior: smooth;
       }
+      /* Ajuste de seleção de texto conforme seu design */
+      ::selection {
+        background-color: rgba(163, 144, 109, 0.3); /* gold-500/30 */
+        color: #F9F1D8; /* gold-100 */
+      }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-black text-slate-300">
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body class="bg-gradient-to-b from-[#111827] via-[#0a0a0a] to-black text-slate-300 font-sans min-h-screen w-full overflow-x-hidden">
+
+    <!-- Decorative background glow (Top) -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-gold-500/5 rounded-full blur-[120px] pointer-events-none z-0"></div>
+
+    <!-- Main Content Wrapper -->
+    <main class="relative z-10 w-full max-w-2xl mx-auto px-6 flex flex-col items-center pb-24">
+      
+      <!-- --- HEADER --- -->
+      <header class="pt-20 pb-12 w-full text-center animate-fade-in opacity-0" style="animation-delay: 0.2s;">
+        <h1 class="font-serif text-4xl md:text-5xl text-gold-100 tracking-wider mb-6">
+          THE NARROW DOOR
+        </h1>
+        <p class="text-gold-200/80 text-lg font-light tracking-wide font-serif italic">
+          A place for guided prayer and spiritual clarity.
+        </p>
+        <div class="w-24 h-px bg-gold-300/30 mx-auto mt-8"></div>
+      </header>
+
+      <!-- --- SECTION 1: TODAY'S PRAYER --- -->
+      <section class="w-full mt-10 mb-20 animate-fade-in opacity-0" style="animation-delay: 0.6s;">
+        <div class="relative group">
+          <!-- Glow effect behind the card -->
+          <div class="absolute -inset-1 bg-gradient-to-b from-gold-500/10 to-transparent rounded-lg blur opacity-50 group-hover:opacity-75 transition duration-1000"></div>
+          
+          <div class="relative bg-[#0f1219]/60 backdrop-blur-sm border border-gold-300/10 p-8 md:p-12 rounded-lg text-center shadow-2xl">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#0f1219] p-2 rounded-full border border-gold-300/10">
+              <!-- Icon: Sparkles -->
+              <i data-lucide="sparkles" class="w-5 h-5 text-gold-300/60"></i>
+            </div>
+
+            <!-- IMPORTANTE: Mudar este Título para "A 2026 NEW BEGINNING" -->
+            <h2 class="font-serif text-2xl text-gold-200 mb-8 tracking-wide">
+              Today’s Prayer: A DECEMBER OF HARVEST
+            </h2>
+
+            <div class="space-y-4 text-base md:text-lg leading-relaxed text-slate-200 font-light">
+              <p>Heavenly Father,</p>
+              <p>I stand at the open door of a new month.</p>
+              <p>I declare that December will be a season,</p>
+              <p>of overflow and divine favor.</p>
+              <p>Open the windows of heaven over me.</p>
+              <p>Let there be no lack at my table.</p>
+              <p>Where there was struggle, let there be ease.</p>
+              <p>Where there was emptiness, let there be harvest.</p>
+              <p>Illuminate my path with wisdom,</p>
+              <p>to steward the blessings You are sending.</p>
+              <p>I step into this month ready to receive.</p>
+              <p>My heart is open and my spirit is ready.</p>
+              <p class="pt-4 font-medium text-gold-300">Amen.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --- TRANSITION SEPARATOR --- -->
+      <div class="w-full flex flex-col items-center gap-6 my-12 animate-fade-in opacity-0" style="animation-delay: 0.8s;">
+        <div class="w-full max-w-[200px] h-px bg-gradient-to-r from-transparent via-gold-400/40 to-transparent"></div>
+        <!-- Icon: DoorOpen -->
+        <i data-lucide="door-open" class="w-6 h-6 text-gold-400/60" stroke-width="1"></i>
+        <div class="w-full max-w-[200px] h-px bg-gradient-to-r from-transparent via-gold-400/40 to-transparent"></div>
+      </div>
+
+      <!-- --- SECTION 2: WELCOME MESSAGE --- -->
+      <section class="w-full max-w-lg mx-auto text-center my-16 animate-fade-in opacity-0" style="animation-delay: 1s;">
+        <h2 class="font-serif text-3xl text-gold-100 mb-8">
+          A Message For Your Heart
+        </h2>
+        
+        <div class="space-y-6 text-lg text-slate-300 font-light leading-relaxed">
+          <p>
+            If you are here, it is not an accident.
+          </p>
+          <p>
+            People don’t arrive at The Narrow Door randomly.
+            They come because something inside is waking up —
+            a need for direction, clarity, and a deeper touch from God.
+          </p>
+          <p>
+            And if this prayer moved you,
+            I want to offer you something I created from a very real place:
+          </p>
+        </div>
+      </section>
+
+      <!-- --- SECTION 3: PRODUCT PRESENTATION --- -->
+      <section class="w-full my-16 animate-fade-in opacity-0" style="animation-delay: 1.2s;">
+        <div class="border border-gold-300/30 bg-[#0c0e14] p-10 md:p-14 rounded-sm text-center relative overflow-hidden">
+          
+          <!-- Decorative corners -->
+          <div class="absolute top-0 left-0 w-8 h-8 border-t border-l border-gold-400/30"></div>
+          <div class="absolute top-0 right-0 w-8 h-8 border-t border-r border-gold-400/30"></div>
+          <div class="absolute bottom-0 left-0 w-8 h-8 border-b border-l border-gold-400/30"></div>
+          <div class="absolute bottom-0 right-0 w-8 h-8 border-b border-r border-gold-400/30"></div>
+
+          <div class="flex justify-center mb-6">
+            <!-- Icon: BookOpen -->
+            <i data-lucide="book-open" class="w-8 h-8 text-gold-300" stroke-width="1"></i>
+          </div>
+
+          <h3 class="font-serif text-2xl md:text-3xl text-gold-100 mb-6 leading-tight">
+            “Entering The Narrow Door: <br class="hidden md:block"/> A Short Journey Back to God”
+          </h3>
+
+          <div class="w-12 h-px bg-gold-500/30 mx-auto mb-6"></div>
+
+          <div class="text-slate-300 font-light text-lg italic leading-relaxed">
+            <p class="mb-2">A quiet, honest, and personal guide for anyone who feels God calling them back.</p>
+            <p class="mb-2">This short book is not theology.</p>
+            <p class="mb-2">It is not self-help.</p>
+            <p class="mb-2">It is not a lecture.</p>
+            <p class="text-white/90">
+              It is a simple journey — one that begins where all real transformation begins: inside the heart.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- --- CTA BUTTON --- -->
+      <section class="w-full flex justify-center mb-24 animate-fade-in opacity-0" style="animation-delay: 1.4s;">
+        <a 
+          href="https://pay.hotmart.com/E103167454N" 
+          class="group relative px-10 py-5 bg-gradient-to-r from-gold-400 to-gold-300 rounded-sm shadow-[0_0_25px_rgba(212,196,168,0.15)] hover:shadow-[0_0_40px_rgba(212,196,168,0.3)] transition-all duration-500 transform hover:-translate-y-0.5"
+        >
+          <span class="relative z-10 font-serif text-lg font-semibold text-navy-950 tracking-wide">
+            Enter the Journey — $4.99
+          </span>
+          <div class="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-sm"></div>
+        </a>
+      </section>
+
+      <!-- --- FOOTER --- -->
+      <footer class="text-center space-y-4 opacity-60 animate-fade-in" style="animation-delay: 1.6s;">
+        <p class="font-serif text-gold-200 text-lg italic">
+          “May this place bring clarity to your walk.”
+        </p>
+        <div class="flex flex-col items-center gap-3">
+           <div class="w-1 h-8 bg-gradient-to-b from-transparent via-gold-500/30 to-transparent"></div>
+           <p class="text-xs uppercase tracking-[0.2em] text-slate-500">
+            The Narrow Door • Guided Prayer & Spiritual Direction
+          </p>
+          <!-- Subtle light flare at the very bottom -->
+          <div class="w-32 h-32 bg-gold-500/10 blur-[60px] rounded-full absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none"></div>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Inicializar Ícones -->
+    <script>
+      lucide.createIcons();
+    </script>
 </body>
 </html>
